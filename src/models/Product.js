@@ -10,6 +10,7 @@ const Product = sequelize.define("product", {
     type: DataTypes.TEXT,
     allowNull: false,
   },
+  //!corregir el price debe der en integer
   price: {
     type: DataTypes.STRING,
     allowNull: false,
